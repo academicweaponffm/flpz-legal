@@ -1,0 +1,28 @@
+/* Local system fonts and static illustrations; no external requests. */
+.product{background:#f6f5ef;color:#1e3028;font-size:17px;line-height:1.65}
+.product header,.product main,.product footer{max-width:1160px;padding:28px 40px}
+.product header{border:0}.brand-dot{color:#28794e}.product .brand{font-size:34px}
+.product nav{font-size:14px;gap:24px}.product nav a{text-decoration:none}
+.product h1{font-size:clamp(54px,7.4vw,96px);letter-spacing:-.065em;line-height:.99;max-width:650px;margin:24px 0}
+.product h2{font-size:clamp(30px,4vw,44px);letter-spacing:-.045em;line-height:1.1;margin:0 0 22px;max-width:730px}
+.product h3{font-size:22px;line-height:1.2;letter-spacing:-.025em;margin:18px 0 12px}
+.product p{margin:0 0 20px}.product section{scroll-margin-top:30px;margin-bottom:100px}
+.product .hero{display:grid;grid-template-columns:1.3fr 1fr;align-items:center;gap:70px;padding:56px 0 20px}
+.product .lead{max-width:610px;font-size:21px;line-height:1.6}.product .eyebrow{font-size:12px;letter-spacing:.13em;color:#42624d}
+.product .button{display:inline-flex;align-items:center;gap:35px;padding:14px 22px;border-radius:8px;background:#245b3f;color:#fff;text-decoration:none;font-weight:650;margin:8px 0 20px}
+.product .button:hover{background:#1b4831}.product .meta{font-size:13px;color:#5b6c61}
+.overview{background:#fcfdf9;border:1px solid #d2dbd0;border-radius:26px;padding:30px;box-shadow:0 20px 50px #173d2310;transform:rotate(2deg)}
+.overview-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:42px}.overview-top strong{font-size:25px;letter-spacing:-.07em}
+.pill{background:#e5eddf;font-size:11px;padding:5px 10px;border-radius:30px;color:#3e614a}
+.product .overview>p{font-size:14px;margin:0}.product .overview .profit{color:#247345;font-size:48px;font-weight:700;letter-spacing:-.06em;margin-bottom:30px}
+.overview-row{display:flex;justify-content:space-between;gap:12px;padding:13px 0;border-top:1px solid #e1e6dd;font-size:13px}.overview-row strong{font-variant-numeric:tabular-nums}
+.bars{height:65px;display:flex;align-items:flex-end;gap:9px;margin-top:20px}.bars i{flex:1;background:#a4c0a4;height:25%;border-radius:4px 4px 0 0}.bars i:nth-child(2){height:60%}.bars i:nth-child(3){height:43%}.bars i:nth-child(4){height:75%}.bars i:nth-child(5){height:55%}.bars i:nth-child(6){height:100%;background:#2e7049}
+.section-lead{color:#54685a;max-width:670px;font-size:19px}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:42px}.feature{border-top:1px solid #bacabb;padding-top:22px}.number{font-size:12px;font-weight:700;color:#588265}.feature p{color:#526459;font-size:16px}
+.product .pro-section{background:#e9eee3;border-radius:22px;padding:42px}.pro-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px 42px;margin-top:28px}.pro-feature{border-top:1px solid #bdcbb9;padding-top:4px}.pro-feature p{font-size:15px;color:#435a49}
+.product .free-section{max-width:800px;border-left:3px solid #397450;padding:3px 0 3px 26px}.product .free-section p{margin-bottom:0}
+.privacy-section{max-width:800px}.product .privacy-section .meta{margin-top:22px}
+.product .beta-section{border:1px solid #ccd6c6;border-radius:20px;padding:36px;max-width:850px;margin-bottom:50px}.product .beta-section p:last-child{margin-bottom:0}
+.product footer{border-top:1px solid #ccd6c6;padding-top:30px;padding-bottom:30px}.product footer>strong{font-size:26px;letter-spacing:-.07em}.product footer nav{margin:20px 0}.product footer p{font-size:12px;margin:0}
+@media(max-width:800px){.product header,.product main,.product footer{padding:24px}.product .hero{grid-template-columns:1fr;gap:36px;padding-top:30px}.overview{transform:none;max-width:430px;width:100%;margin:auto}.features{grid-template-columns:1fr;gap:10px}.product section{margin-bottom:65px}.product .pro-section{padding:28px}.pro-grid{gap:12px 28px}.product header{flex-wrap:wrap;gap:16px}.product nav{gap:18px}}
+@media(max-width:480px){.product h1{font-size:58px}.product .lead{font-size:19px}.pro-grid{grid-template-columns:1fr}.product .pro-section,.product .beta-section{padding:24px}.overview{padding:24px}.product .overview .profit{font-size:44px}.product header{flex-direction:column;align-items:flex-start}.product nav{flex-wrap:wrap;gap:16px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
