@@ -15,3 +15,5 @@ GitHub Pages serves the static files; no server, external fonts, analytics or JS
 
 This public repository contains no app source, credentials, internal release
 status, private identifiers or user records. Illustrative metrics are labeled.
+
+Copy follows [COPY_STYLE.md](COPY_STYLE.md), using the Humanizer editing skill.
