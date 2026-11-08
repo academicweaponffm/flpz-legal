@@ -15,7 +15,7 @@ COPY = {
         'freeTitle': 'Alle Funktionen kostenlos', 'free': 'Verwalte unbegrenzt viele Flips und nutze alle Werkzeuge ohne Abo oder In-App-Kauf. Verkaufshistorie, Belege, Zahlungs- und Versandstatus, Erstattungen, Erinnerungen, Ziele, Auswertungen, Backups, CSV und optionaler iCloud-Sync sind enthalten.',
         'privacyTitle': 'Du entscheidest, ob du iCloud nutzt', 'privacy': 'Du brauchst kein zusätzliches App-Konto. Deine Artikeldaten liegen auf deinem iPhone. Bei Bedarf synchronisierst du sie mit deinem persönlichen iCloud. Die App enthält keine Werbung oder Tracking-SDKs. Erinnerungen und Widgets aktivierst du selbst.',
         'limits': 'FLPZ veröffentlicht keine Inserate und greift nicht auf Marktplatzkonten zu. KI benötigt ein kompatibles Gerät und ein verfügbares Apple-Intelligence-Modell; Fotoanalyse zusätzlich iOS 27. Generierte Texte vor dem Teilen prüfen.',
-        'betaTitle': 'App-Store-Start in Vorbereitung', 'beta': 'FLPZ wird vor dem ersten App-Store-Release getestet. Sobald die App verfügbar ist, findest du hier den Download-Link. Du brauchst ein iPhone mit iOS 26 oder neuer.',
+        'releaseTitle': 'Öffentlicher App-Store-Start', 'release': 'FLPZ ist für die Veröffentlichung im App Store vorbereitet. Der Download-Link folgt nach Apples Freigabe. Du brauchst ein iPhone mit iOS 26 oder neuer.',
         'contact': 'Fragen zu FLPZ?', 'contactLink': 'Support kontaktieren', 'privacyLink': 'Datenschutz', 'termsLink': 'Nutzungsbedingungen', 'supportLink': 'Hilfe', 'other': 'English', 'otherPath': '/en/', 'skip': 'Zum Inhalt', 'nav': 'Hauptnavigation', 'preview': 'Beispielwerte', 'profit': 'Gewinn diesen Monat', 'capital': 'Gebundenes Kapital', 'active': 'Aktive Flips', 'money': '+142,00 €', 'bound': '310,00 €',
     },
     'en': {
@@ -27,7 +27,7 @@ COPY = {
         'freeTitle': 'Every feature is free', 'free': 'Manage unlimited flips and use every tool without a subscription or in-app purchase. Sold history, receipts, payment and shipping tracking, refunds, reminders, goals, analytics, backups, CSV and optional iCloud sync are included.',
         'privacyTitle': 'You choose whether to use iCloud', 'privacy': 'You do not need another app account. Your item records are stored on your iPhone, with personal iCloud sync if you choose it. The app has no ads or tracking SDKs. You enable reminders and widget sharing yourself.',
         'limits': 'FLPZ does not publish listings or access marketplace accounts. AI needs a compatible device and an available Apple Intelligence model; photo analysis also requires iOS 27. Review generated text before sharing.',
-        'betaTitle': 'App Store release in preparation', 'beta': 'FLPZ is being tested before its first App Store release. A download link will appear here once the app is available. You need an iPhone with iOS 26 or later.',
+        'releaseTitle': 'App Store release', 'release': "FLPZ is prepared for release on the App Store. The download link will appear after Apple's approval. You need an iPhone with iOS 26 or later.",
         'contact': 'Questions about FLPZ?', 'contactLink': 'Contact support', 'privacyLink': 'Privacy', 'termsLink': 'Terms of use', 'supportLink': 'Support', 'other': 'Deutsch', 'otherPath': '/de/', 'skip': 'Skip to content', 'nav': 'Main navigation', 'preview': 'Example values', 'profit': 'Profit this month', 'capital': 'Tied-up capital', 'active': 'Active flips', 'money': '+€142.00', 'bound': '€310.00',
     },
 }
@@ -47,7 +47,7 @@ def _page(lang, c):
 <section id="tools" class="tools-section"><p class="eyebrow">FLPZ</p><h2>{c['toolsTitle']}</h2><p class="section-lead">{c['toolsLead']}</p><div class="tools-grid">{pro}</div></section>
 <section class="free-section"><h2>{c['freeTitle']}</h2><p>{c['free']}</p></section>
 <section class="privacy-section"><h2>{c['privacyTitle']}</h2><p>{c['privacy']}</p><a href="{BASE}/{lang}/{privacy}/">{c['privacyLink']} ↗</a><p class="meta">{c['limits']}</p></section>
-<section class="beta-section" id="beta"><p class="eyebrow">FLPZ</p><h2>{c['betaTitle']}</h2><p>{c['beta']}</p><p><strong>{c['contact']}</strong> <a href="mailto:flpz.support@gmail.com">{c['contactLink']}</a></p></section></main>
+<section class="beta-section" id="beta"><p class="eyebrow">FLPZ</p><h2>{c['releaseTitle']}</h2><p>{c['release']}</p><p><strong>{c['contact']}</strong> <a href="mailto:flpz.support@gmail.com">{c['contactLink']}</a></p></section></main>
 <footer><strong>FLPZ</strong><nav aria-label="{'Rechtliches' if lang == 'de' else 'Legal'}"><a href="{BASE}/{lang}/{privacy}/">{c['privacyLink']}</a><a href="{BASE}/{lang}/{terms}/">{c['termsLink']}</a><a href="{BASE}/{lang}/{support}/">{c['supportLink']}</a></nav><p>© 2026 Kiro Laban · <a href="mailto:flpz.support@gmail.com">flpz.support@gmail.com</a></p></footer></body></html>'''
 
 
