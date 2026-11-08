@@ -8,7 +8,7 @@ in everyday German or English. Remove filler, inflated promises and generic
 sales slogans. Keep sentence length natural and each sentence useful.
 
 Keep supported facts and qualifications. Estimates remain estimates. Clearly
-describe manual marketplace actions, the five-item Free limit and the beta's
+describe manual marketplace actions, free access to all features and unlimited flips and the beta's
 availability. Do not add testimonials, savings, ratings or personal stories.
 
 Keep legal meaning, privacy practices, numbers, dates, contact details and link

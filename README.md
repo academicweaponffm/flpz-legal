@@ -6,10 +6,10 @@ Static English/German product pages, support, privacy and terms for FLPZ.
 - Deutsch: https://academicweaponffm.github.io/flpz-legal/de/
 - English: https://academicweaponffm.github.io/flpz-legal/en/
 
-The homepage explains the upcoming beta feature set, Free/Pro benefits and local
+The homepage explains the feature set being tested before launch, all included features and local
 privacy choices. A public TestFlight link is added only after approval.
 
-Edit product copy in `build_home.py` and run `python build_home.py` to regenerate
+Edit product copy in `build_home.py` and run `python build_site.py` to regenerate
 the three product entry pages. Existing legal/support paths remain stable.
 GitHub Pages serves the static files; no server, external fonts, analytics or JS.
 
